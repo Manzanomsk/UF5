@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari d'enviament</title>
+    <script type="text/javascript">
+        function validar(){
+        var psswd=document.getElementById("psswd").value;
+        var confpsswd=document.getElementById("confpsswd").value;
+        if(psswd==confpsswd){
+        return true;
+        }
+        else{
+        alert("No coincideix");
+        return false;
+        }
+        }
+        </script>
+</head>
+<body>
+    <table style="font-family: Verdana;" bgcolor="EFEFEF">
+        <form method="GET" action=mailto:marc.manzano@inslapineda.cat onsubmit="return validar();">
+        <input type="hidden" name="id">
+        <tr bgcolor="#306090">
+            <th colspan="5"><p style="color: white;" align="left">Enviar missatge</th><td><img src="../M8UF5AC15_mmanzano/img/gb_reload_s.gif"></td></p>
+        </tr>
+        <tr>
+            <td><p>Nom: <input type="text" name="nom" maxlength="8"></p></td>
+        </tr>
+        <tr>
+            <td><p>Contrasenya: <input type="password" id="psswd"></p></td>
+        </tr>
+        <tr>
+            <td><p> Repetició de Contrasenya: <input type="password" id="confpsswd" onsubmit="return validar();"></p></td>
+        </tr>
+        <tr>
+        <td><label for="email">E-Mail:</label>
+            <input type="email" id="email"
+            pattern=".+@gmail\.com" pattern=".+@inslapineda\.cat" size="20" required>
+            </td>
+        </tr>
+        <tr>
+        <td><p>Arxiu: <input type="text" name="arxiu"></td><td><input type="file"></p></td>
+        </tr>
+        <tr>
+        <td><p>Imatge: <input type="text" name="imatge"></td><td><input type="file" size="4096"></p></td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><p><small>El tamany de l'arxiu i la imatge no pot exedir el 4 KBytes</small></p></td>
+        </tr>
+        <tr>
+            <td><p>Quins jocs t'interessen? <input type="checkbox">Free Fire <input type="checkbox">Roblox <input type="checkbox">Among us <input type="checkbox">Warzone</p></td>
+            </tr>
+        <tr>
+            <td align="center" colspan="2"><p><strong>Requereixo resposta </strong><input type="radio"name="resposta" value="si">Si<input type="radio"name="resposta" value="no">No</td></p>
+        </tr>
+        <tr>
+            <td align="center" colspan="2"><strong><p>Missatge</p></strong><textarea rows="5" cols="45"></textarea></td>
+        </tr>
+        <tr>
+            <td align="center">
+            <input type="submit" value="Enviar">
+            <input type=reset value="BORRAR">
+            </td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
