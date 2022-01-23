@@ -1,0 +1,27 @@
+ul {
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+li {
+    background: rgb(55, 55, 214);
+    margin: 5px;
+    color: white;
+    padding: 0%;
+    margin-right: 85%; margin-top: 0%; margin-left: 0%; margin-bottom: 1%;
+}
+.a {
+    border: 2px solid blue;
+}
+.a:hover {
+    border: 2px solid red;
+}
+li.b {
+    border: 2px solid green;
+    background-color: green;
+}
+.b:hover {
+    color: black;
+    border: 2px solid red;
+    background-color: grey;
+}

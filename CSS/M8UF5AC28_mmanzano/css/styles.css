@@ -1,0 +1,39 @@
+.box {
+    text-align: center;
+    display: inline-block;
+    line-height: 50px;
+    width: 200px;
+    height: 100px;
+    margin: 1em;
+    border: 3px solid green;
+}
+.green1 {
+    line-height: 60px;
+    width: 800px;
+    height: 60px;
+    border: 3px solid rgb(47, 255, 64);
+}
+.green2 {
+    line-height: 60px;
+    width: 800px;
+    height: 60px;
+    border: 2px dashed green;
+}
+.blue {
+    line-height: 60px;
+    width: 800px;
+    height: 60px;
+    border: 2px dashed blue;
+}
+.red {
+    line-height: 60px;
+    width: 800px;
+    height: 60px;
+    border: 2px dashed red;
+}
+.red2 {
+    line-height: 60px;
+    width: 800px;
+    height: 60px;
+    border: 3px solid rgb(179, 24, 24);
+}

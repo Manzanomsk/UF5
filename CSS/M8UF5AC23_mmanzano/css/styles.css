@@ -1,0 +1,53 @@
+body{
+    background: url(../img/IMAGEN.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1024px;
+    height: 512px;
+}
+table {
+    width: 70%;
+}
+td {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+p.p1{
+    background-color:red;
+}
+p.p2{
+    background-color: orange;
+}
+p.p3{
+    background-color: yellow;
+}
+p.p4{
+    background-color: green;
+}
+p.p5{
+    background-color: lightskyblue;
+}
+p.p6{
+    background-color: blue;
+}
+p.p7{
+    background-color: purple;
+}
+p.p8{
+    background-color: pink;
+}
+p.p9{
+    background-color: peru;
+}
+p.p10{
+    background-color: wheat;
+}
+p:hover{
+    background-color: tomato;
+}
+p span.bottom{
+    border-bottom: 2px solid;
+}
+p span.top{
+    border-top: 2px solid;
+}
