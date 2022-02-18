@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="js/cookies.js"></script>
+</head>
+<body>
+    <form method="GET">
+        <p>Nom:</p>
+        <input type="nom" id="nom">
+        <p>Contrasenya:</p>
+        <input type="password" id="psswd">
+        <p> Repetició de Contrasenya:</p>
+        <p><input type="password" id="confpsswd"></p>
+        <input type="submit" value="Comprobar" onclick="validar()">
+        <p>Nom:</p>
+        <input type="nom" id="nom2">
+        <p>Cognom:</p>
+        <input type="nom" id="cognom2">
+        <p><input type="submit" value="Guardar dades" onclick="guardarDades()"></p>
+        <p><input type="button" value="Recuperar dades" onclick="recuperarDades()"></p>
+        <p><input type="submit" onclick="esborrarDades()" value="Esborrar dades"></p>
+        <p>Numero 1</p>
+        <input type="text" id="num1">
+        <input type="submit" value="Guardar Numero" onclick="guardarnum()">
+        <p>+</p>
+        <p>Numero 2</p>
+        <input type="text" id="num2">
+        <input type="submit" value="Guardar Numero" onclick="guardarnum2()">
+        <p><input type="button" value="Resoldre" onclick="calcular()"></p>
+    </form>
+</body>
+</html>
